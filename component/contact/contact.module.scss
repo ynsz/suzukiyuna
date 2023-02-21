@@ -1,0 +1,23 @@
+.stack {
+  margin: 0 0 var(--space-xl);
+  & > * + * {
+    margin-top: var(--stack-space, 1em);
+  }
+}
+
+.heading {
+  font-size: var(--body);
+}
+
+.address {
+  font-style: normal;
+
+  a {
+    text-decoration: underline;
+    transition: opacity 0.3s ease-in-out;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
