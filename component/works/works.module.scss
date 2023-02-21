@@ -1,13 +1,28 @@
 .list {
   display: flex;
   flex-wrap: wrap;
-  gap: 2em;
+  gap: 2em 4em;
   padding: 0 0 10em;
 
   li {
     width: 100%;
+    margin: 0 0 var(--space-xs);
     @media (min-width: 768px) {
-      width: calc(50% - 1em);
+      width: calc(50% - 2em);
     }
+
+    a {
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+  h3 {
+    font-size: var(--heading2);
+  }
+  p {
+    font-size: var(--body);
+    color: var(--gray-25);
   }
 }
