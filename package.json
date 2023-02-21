@@ -10,15 +10,21 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-brands-svg-icons": "^6.3.0",
     "@fortawesome/free-regular-svg-icons": "^6.3.0",
     "@fortawesome/free-solid-svg-icons": "^6.3.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@next/font": "13.1.6",
+    "@plaiceholder/next": "^2.5.0",
     "eslint": "8.34.0",
     "eslint-config-next": "13.1.6",
+    "html-to-text": "^9.0.4",
+    "microcms-js-sdk": "^2.3.2",
     "next": "13.1.6",
+    "plaiceholder": "^2.5.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sharp": "^0.31.3"
   },
   "devDependencies": {
     "sass": "^1.58.3"
