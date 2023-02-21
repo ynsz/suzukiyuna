@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <h1>
-        SUZUKI YUNA <p>WEB DESIGNER</p>
+        SUZUKI YUNA<p>WEB DESIGNER</p>
       </h1>
     </>
   );
