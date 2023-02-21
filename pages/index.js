@@ -1,16 +1,15 @@
-import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "@next/font/google";
-import styles from "@/styles/Home.module.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import Container from "component/container/container";
+import Hero from "component/hero/hero";
 
 export default function Home() {
   return (
-    <>
-      <h1>
-        SUZUKI YUNA<p>WEB DESIGNER</p>
-      </h1>
-    </>
+    <Container>
+      <Hero
+        title="SUZUKI YUNA"
+        subtitle="DESIGN WORKS  2018-2023"
+        imageOn
+        large
+      />
+    </Container>
   );
 }
