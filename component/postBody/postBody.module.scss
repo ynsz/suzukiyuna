@@ -31,4 +31,18 @@
     padding: revert;
     list-style: revert;
   }
+  div {
+    padding: 20px 0;
+    a {
+      display: inline-block;
+      text-decoration: underline;
+      padding: 0 0 2em;
+      &:hover {
+        opacity: 0.5;
+      }
+      svg {
+        padding: 0 0.5em 0 0;
+      }
+    }
+  }
 }

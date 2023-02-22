@@ -58,13 +58,13 @@ export default function Works({}) {
     {
       src: "drama",
       img: drama,
-      title: "春ドラマ2022",
+      title: "季節ドラマ",
       category: "UI DESIGN, WEB DESIGN, WEB DEVELOPMENT",
     },
     {
       src: "anime",
       img: anime,
-      title: "春アニメ2022",
+      title: "季節アニメ",
       category: "UI DESIGN, WEB DESIGN, WEB DEVELOPMENT",
     },
     {

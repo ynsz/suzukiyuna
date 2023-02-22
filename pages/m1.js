@@ -2,25 +2,30 @@ import Meta from "component/meta/meta";
 import Container from "component/container/container";
 import Hero from "component/hero/hero";
 import PostBody from "component/postBody/postBody";
-import Contact from "component/contact/contact";
 import Image from "next/image";
-import bgImg from "images/bg_img.jpg";
+import ImgFull from "images/m1_full.jpg";
 
-export default function About() {
+export default function M1() {
   return (
     <Container>
-      <Meta pageTitle="ABOUT" pageDesc="自己紹介" />
+      <Meta
+        pageTitle="M-1グランプリ2021"
+        pageDesc="WEB DESIGN, UX DESIGN, WEB DEVELOPMENT"
+      />
 
-      <Hero title="ABOUT" subtitle="自己紹介" />
+      <Hero
+        title="M-1グランプリ2021"
+        subtitle="WEB DESIGN, UX DESIGN, WEB DEVELOPMENT"
+      />
       <PostBody>
         <figure
           style={{
-            maxWidth: "600px",
+            maxWidth: "800px",
             margin: "0 auto",
           }}
         >
           <Image
-            src={bgImg}
+            src={ImgFull}
             alt="bgImg"
             layout="responsive"
             sizes="100vw"
@@ -28,26 +33,17 @@ export default function About() {
             placeholder="blur"
           />
         </figure>
-        <h2>
-          <ruby>鈴木 佑菜</ruby>SUZUKI YUNA
-        </h2>
-        <p>1995年、北海道札幌市生まれ。既婚。2匹の猫を飼っている。</p>
-        <p>
-          2018年4月にヤフー株式会社に入社後、GYAO!傘下であるレビューサイトのYahoo!映画、番組表サイトのYahoo!テレビ、映像コンテンツ制作のYahoo!映像トピックス（クローズ）の3サービスに配属される。コーディング、映像デザイン、イラスト制作を担当。
-          <br />
-          2019年ごろから1年かけてYahoo!テレビのフルリニューアルプロジェクトに他業種と協業で取り組む。そのほか、CMS構築を含む特集サイトやバナー制作、SNS運用などを担当する。
-          <br />
-          2020年以降はGYAO!特集チームのデザイナーとして、ビジュアルデザイン・コーディングなど幅広く担当し、20を超える案件に携わる。
-          <br />
-          2021年にはM-1グランプリの特集でのUX体験の向上やリスク対策への取り組みが評価され、GYAO!下期表彰式で部門賞を受賞。
-          <br />
-          また、副業では個人事業主としてJamstackなサイト制作を行なっている。
-        </p>
-        <p>
-          今後はよりUXに磨きをかけて、理想的なユーザー体験を追求して行きたいと考えています。
-        </p>
+        <div>
+          <p>
+            ワイルドカード、ファイナリスト発表記者会見、世界最速大反省会、M-1アフター座談会などGYAO!とM1-グランプリによる企画の特集をデザインした。
+            <br />
+            各企画のページに対してユースケースを考え、ユーザー課題を見つけてユーザビリティや理想的なUX体験を考えて特集に反映させた。
+            <br />
+            結果、訪問UBが昨年比134％、APPダウンロードが昨年比130%と目標に大きく貢献した。
+          </p>
+          <p>掲載期間：2021年10月29日〜2022年2月頃</p>
+        </div>
       </PostBody>
-      <Contact />
     </Container>
   );
 }
