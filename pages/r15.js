@@ -8,7 +8,7 @@ import ImgFull from "images/r15_full.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
-export default function Anime() {
+export default function R15() {
   return (
     <Container>
       <Meta
