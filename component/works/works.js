@@ -101,7 +101,7 @@ export default function Works({}) {
       src: "fammuu",
       img: fammuu,
       title: "fammuu",
-      category: "WEB DESIGN, WEB DEVELOPMENT",
+      category: "WEB DESIGN",
     },
     {
       src: "tv",

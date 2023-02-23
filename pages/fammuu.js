@@ -3,20 +3,17 @@ import Container from "component/container/container";
 import Hero from "component/hero/hero";
 import PostBody from "component/postBody/postBody";
 import Image from "next/image";
-import ImgFull from "images/jimyoin_full.jpg";
+import ImgFull from "images/fammuu_full.jpg";
 
-export default function Ikioi() {
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+
+export default function Fammuu() {
   return (
     <Container>
-      <Meta
-        pageTitle="慈妙院動物霊園"
-        pageDesc="WEB DESIGN, WEB DEVELOPMENT, ILLUSTRATION"
-      />
+      <Meta pageTitle="fammuu" pageDesc="WEB DESIGN, WEB DEVELOPMENT" />
 
-      <Hero
-        title="慈妙院動物霊園"
-        subtitle="WEB DESIGN, WEB DEVELOPMENT, ILLUSTRATION"
-      />
+      <Hero title="fammuu" subtitle="WEB DESIGN, WEB DEVELOPMENT" />
       <PostBody>
         <figure
           style={{
@@ -34,7 +31,9 @@ export default function Ikioi() {
           />
         </figure>
         <div>
-          <p>デザインからGatsbyJSでの開発、イラスト制作を行なった。</p>
+          <p>
+            アーティスト向けファンクラブ作成サービスのリリースに伴い、LPを作成。
+          </p>
           <p>掲載期間：これから</p>
         </div>
       </PostBody>
