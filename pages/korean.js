@@ -3,21 +3,21 @@ import Container from "component/container/container";
 import Hero from "component/hero/hero";
 import PostBody from "component/postBody/postBody";
 import Image from "next/image";
-import ImgFull from "images/drama_full.jpg";
+import ImgFull from "images/korean_full.jpg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
-export default function Drama() {
+export default function Korean() {
   return (
     <Container>
       <Meta
-        pageTitle="季節ドラマ"
+        pageTitle="もっと韓ドラ＆アジアドラマ"
         pageDesc="UI DESIGN, WEB DESIGN, WEB DEVELOPMENT"
       />
 
       <Hero
-        title="季節ドラマ"
+        title="もっと韓ドラ＆アジアドラマ"
         subtitle="UI DESIGN, WEB DESIGN, WEB DEVELOPMENT"
       />
       <PostBody>
@@ -37,14 +37,14 @@ export default function Drama() {
           />
         </figure>
         <div>
-          <a href="https://gyao.yahoo.co.jp/specials/drama-catchup">
+          <a href="https://gyao.yahoo.co.jp/specials/koreandrama">
             <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-            季節ドラマ
+            もっと韓ドラ＆アジアドラマ
           </a>
           <p>
-            作品詳細モーダルの配置やランキングの追加などで、もっとドラマが見たくなるような情報を掲載している。
+            韓国ドラマのストーリーにフォーカスした情報整理を行い、ドラマの魅力をアピール。
           </p>
-          <p>掲載期間：2022年3月〜現在</p>
+          <p>掲載期間：2022年6月〜現在</p>
         </div>
       </PostBody>
     </Container>

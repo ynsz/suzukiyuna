@@ -28,8 +28,12 @@
   }
 
   ul {
-    padding: revert;
-    list-style: revert;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
   }
   div {
     padding: 20px 0;

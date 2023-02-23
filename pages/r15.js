@@ -3,21 +3,21 @@ import Container from "component/container/container";
 import Hero from "component/hero/hero";
 import PostBody from "component/postBody/postBody";
 import Image from "next/image";
-import ImgFull from "images/drama_full.jpg";
+import ImgFull from "images/r15_full.jpg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
-export default function Drama() {
+export default function Anime() {
   return (
     <Container>
       <Meta
-        pageTitle="季節ドラマ"
+        pageTitle="官能・過激作品"
         pageDesc="UI DESIGN, WEB DESIGN, WEB DEVELOPMENT"
       />
 
       <Hero
-        title="季節ドラマ"
+        title="官能・過激作品"
         subtitle="UI DESIGN, WEB DESIGN, WEB DEVELOPMENT"
       />
       <PostBody>
@@ -37,14 +37,14 @@ export default function Drama() {
           />
         </figure>
         <div>
-          <a href="https://gyao.yahoo.co.jp/specials/drama-catchup">
+          <a href="https://gyao.yahoo.co.jp/specials/r15">
             <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-            季節ドラマ
+            官能・過激作品
           </a>
           <p>
-            作品詳細モーダルの配置やランキングの追加などで、もっとドラマが見たくなるような情報を掲載している。
+            サムネイルにも使われているメインビジュアルは、クリックがされやすい肌色を強調しつつも下品になりすぎない程度に作成。
           </p>
-          <p>掲載期間：2022年3月〜現在</p>
+          <p>掲載期間：2022年10月〜現在</p>
         </div>
       </PostBody>
     </Container>

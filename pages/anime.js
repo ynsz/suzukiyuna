@@ -3,21 +3,21 @@ import Container from "component/container/container";
 import Hero from "component/hero/hero";
 import PostBody from "component/postBody/postBody";
 import Image from "next/image";
-import ImgFull from "images/drama_full.jpg";
+import ImgFull from "images/anime_full.jpg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
-export default function Drama() {
+export default function Anime() {
   return (
     <Container>
       <Meta
-        pageTitle="季節ドラマ"
+        pageTitle="季節アニメ"
         pageDesc="UI DESIGN, WEB DESIGN, WEB DEVELOPMENT"
       />
 
       <Hero
-        title="季節ドラマ"
+        title="季節アニメ"
         subtitle="UI DESIGN, WEB DESIGN, WEB DEVELOPMENT"
       />
       <PostBody>
@@ -37,12 +37,12 @@ export default function Drama() {
           />
         </figure>
         <div>
-          <a href="https://gyao.yahoo.co.jp/specials/drama-catchup">
+          <a href="https://gyao.yahoo.co.jp/specials/anime-winter">
             <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-            季節ドラマ
+            季節アニメ
           </a>
           <p>
-            作品詳細モーダルの配置やランキングの追加などで、もっとドラマが見たくなるような情報を掲載している。
+            作品を一覧で確認できるリストや、常時流れるアニメ映像などで、視聴を促すための施策を実施した。
           </p>
           <p>掲載期間：2022年3月〜現在</p>
         </div>
