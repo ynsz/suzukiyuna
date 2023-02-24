@@ -1,3 +1,4 @@
+import Meta from "component/meta/meta";
 import Container from "component/container/container";
 import Hero from "component/hero/hero";
 import PostBody from "component/postBody/postBody";
@@ -8,6 +9,8 @@ import bgImg from "images/bg_img.jpg";
 export default function About() {
   return (
     <Container>
+      <Meta pageTitle="ABOUT" pageDesc="自己紹介" />
+
       <Hero title="ABOUT" subtitle="自己紹介" />
       <PostBody>
         <figure

@@ -1,0 +1,140 @@
+import css from "./works.module.scss";
+import Image from "next/image";
+import goodbye from "images/goodbye.jpg";
+import m1 from "images/m1.jpg";
+import bmsgfes from "images/bmsgfes.jpg";
+import koimaji from "images/koimaji.jpg";
+import summerfes from "images/summerfes.jpg";
+import ikkimi from "images/ikkimi.jpg";
+import drama from "images/drama.jpg";
+import anime from "images/anime.jpg";
+import korean from "images/korean.jpg";
+import r15 from "images/r15.jpg";
+import ikioi from "images/ikioi.jpg";
+import jimyoin from "images/jimyoin.jpg";
+import mitaka from "images/mitaka.jpg";
+import fammuu from "images/fammuu.jpg";
+import tv from "images/tv.jpg";
+import tvdrama from "images/tvdrama.jpg";
+
+export default function Works({}) {
+  const items = [
+    {
+      src: "goodbye",
+      img: goodbye,
+      title: "あなたとエンタメにありがとう",
+      category: "WEB DESIGN, WEB DEVELOPMENT",
+    },
+    {
+      src: "m1",
+      img: m1,
+      title: "M-1グランプリ2021",
+      category: "WEB DESIGN, UX DESIGN, WEB DEVELOPMENT",
+    },
+    {
+      src: "bmsgfes",
+      img: bmsgfes,
+      title: "BMSG FES'22",
+      category: "WEB DESIGN, WEB DEVELOPMENT",
+    },
+    {
+      src: "koimaji",
+      img: koimaji,
+      title: "恋なんて、本気でやってどうするの？",
+      category: "WEB DESIGN, WEB DEVELOPMENT",
+    },
+    {
+      src: "summerfes",
+      img: summerfes,
+      title: "真夏の動画まつり",
+      category: "WEB DESIGN, WEB DEVELOPMENT",
+    },
+    {
+      src: "ikkimi",
+      img: ikkimi,
+      title: "イッキ見！",
+      category: "UI DESIGN, WEB DESIGN, WEB DEVELOPMENT",
+    },
+    {
+      src: "drama",
+      img: drama,
+      title: "季節ドラマ",
+      category: "UI DESIGN, WEB DESIGN, WEB DEVELOPMENT",
+    },
+    {
+      src: "anime",
+      img: anime,
+      title: "季節アニメ",
+      category: "UI DESIGN, WEB DESIGN, WEB DEVELOPMENT",
+    },
+    {
+      src: "korean",
+      img: korean,
+      title: "もっと韓ドラ＆アジアドラマ",
+      category: "UI DESIGN, WEB DESIGN, WEB DEVELOPMENT",
+    },
+    {
+      src: "r15",
+      img: r15,
+      title: "官能・過激作品",
+      category: "UI DESIGN, WEB DESIGN, WEB DEVELOPMENT",
+    },
+    {
+      src: "ikioi",
+      img: ikioi,
+      title: "勢引退春日山襲名披露大相撲",
+      category: "WEB DESIGN, WEB DEVELOPMENT, CMS",
+    },
+    {
+      src: "jimyoin",
+      img: jimyoin,
+      title: "慈妙院動物霊園",
+      category: "WEB DESIGN, WEB DEVELOPMENT, ILLUSTRATION",
+    },
+    {
+      src: "mitaka",
+      img: mitaka,
+      title: "不動産売却",
+      category: "WEB DESIGN, WEB DEVELOPMENT",
+    },
+    {
+      src: "fammuu",
+      img: fammuu,
+      title: "fammuu",
+      category: "WEB DESIGN",
+    },
+    {
+      src: "tv",
+      img: tv,
+      title: "Yahoo!テレビ",
+      category: "WEB DEVELOPMENT",
+    },
+    {
+      src: "tvdrama",
+      img: tvdrama,
+      title: "Yahoo!テレビ ドラマ特集",
+      category: "UI DESIGN, WEB DEVELOPMENT, CMS",
+    },
+  ];
+  return (
+    <ul className={css.list}>
+      {items.map((item, index) => (
+        <li key={index}>
+          <a href={item.src}>
+            <figure>
+              <Image
+                src={item.img}
+                alt={item.title}
+                layout="responsive"
+                width="200px"
+                priority
+              />
+            </figure>
+            <h3>{item.title}</h3>
+            <p>{item.category}</p>
+          </a>
+        </li>
+      ))}
+    </ul>
+  );
+}

@@ -1,10 +1,11 @@
 .list {
   display: flex;
   gap: 2em;
+  padding: 0 1em;
 
   @media (hover: hover) {
     a {
-      transition: opacity 0.3s ease-in-out;
+      transition: opacity 0.2s ease-in-out;
 
       &:hover {
         opacity: 0.5;

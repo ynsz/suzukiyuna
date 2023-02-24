@@ -6,7 +6,7 @@
 }
 
 .large {
-  height: 100vh;
+  height: 90vh;
   composes: sideBySideCenter from "../../styles/scss/utils.scss";
   justify-content: center;
 }
@@ -27,7 +27,7 @@
 }
 
 .img {
-  position: absolute;
+  position: fixed;
   z-index: -1;
   opacity: 0.1;
   max-width: 600px;
