@@ -112,7 +112,7 @@ export default function Works({}) {
     {
       src: "tvdrama",
       img: tvdrama,
-      title: "ドラマ特集",
+      title: "Yahoo!テレビ ドラマ特集",
       category: "UI DESIGN, WEB DEVELOPMENT, CMS",
     },
   ];
