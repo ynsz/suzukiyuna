@@ -3,7 +3,7 @@ import Container from "component/container/container";
 import Hero from "component/hero/hero";
 import PostBody from "component/postBody/postBody";
 import Image from "next/image";
-import ImgFull from "images/tv_full.jpg";
+import ImgFull from "images/tvdrama_full.jpg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
@@ -11,9 +11,15 @@ import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 export default function Tvdrama() {
   return (
     <Container>
-      <Meta pageTitle="Yahoo!テレビ ドラマ特集" pageDesc="WEB DEVELOPMENT" />
+      <Meta
+        pageTitle="Yahoo!テレビ ドラマ特集"
+        pageDesc="UI DESIGN, WEB DEVELOPMENT, CMS"
+      />
 
-      <Hero title="Yahoo!テレビ ドラマ特集" subtitle="WEB DEVELOPMENT" />
+      <Hero
+        title="Yahoo!テレビ ドラマ特集"
+        subtitle="UI DESIGN, WEB DEVELOPMENT, CMS"
+      />
       <PostBody>
         <figure
           style={{
