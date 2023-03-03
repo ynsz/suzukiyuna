@@ -21,6 +21,24 @@ export default function Goodbye() {
         subtitle="WEB DESIGN, WEB DEVELOPMENT"
       />
       <PostBody>
+        <div>
+          <a href="https://gyao.yahoo.co.jp/specials/goodbye">
+            <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+            あなたとエンタメにありがとう
+          </a>
+          <p>
+            GYAO!ユーザーに今までの感謝の気持ちを伝える特別な特集。
+            <h4>課題</h4>
+            GYAO!がクローズするのにも関わらず、ユーザーに最後であるということが伝わりづらい。
+            <h4>仮説</h4>
+            今までのGYAO!の軌跡などが振り返ることができるとユーザーは嬉しいのではないか。
+            <h4>根拠</h4>
+            ニュースやSNSから、GYAO!の思い出を振り返るコメントが多く見られた。
+            <h4>選択</h4>
+            <h4>結果</h4>
+          </p>
+          <p>掲載期間：2023年2月27日〜3月31日</p>
+        </div>
         <figure
           style={{
             maxWidth: "800px",
@@ -36,22 +54,6 @@ export default function Goodbye() {
             placeholder="blur"
           />
         </figure>
-        <div>
-          <a href="https://gyao.yahoo.co.jp/specials/goodbye">
-            <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-            あなたとエンタメにありがとう
-          </a>
-          <p>
-            GYAO!ユーザーに今までの感謝の気持ちを伝える特別な特集。
-            <br />
-            2023年3月31日にクローズするGYAO!だが、残りの1ヶ月も魅力的なコンテンツを配信していることをアピール。
-            <br />
-            いつも以上に充実したコンテンツラインナップに加えて、各カテゴリーのスタッフからの最後のコメントや、Yahoo!ニュースに寄せられたユーザーからのコメントをピックアップして掲載している。
-            <br />
-            暗く悲しい雰囲気にならないよう、紙吹雪やグラデーション、アニメーションを使用して落ち着きはありながらも華やかな印象に。
-          </p>
-          <p>掲載期間：2023年2月27日〜3月31日</p>
-        </div>
       </PostBody>
     </Container>
   );
