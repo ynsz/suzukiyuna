@@ -8,8 +8,8 @@ import Img1 from "images/m1_1.jpg";
 import Img2 from "images/m1_2.jpg";
 import Img3 from "images/m1_3.jpg";
 import Img4 from "images/m1_4.jpg";
-import wc1 from "images/wc1.jpg";
-import wc2 from "images/wc2.png";
+import wc1 from "images/wc_1.jpg";
+import wc2 from "images/wc_2.png";
 import result from "images/m1_result.png";
 
 export default function M1() {
