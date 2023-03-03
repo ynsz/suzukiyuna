@@ -21,6 +21,51 @@ export default function Ikkimi() {
         subtitle="UI DESIGN, WEB DESIGN, WEB DEVELOPMENT"
       />
       <PostBody>
+        <section
+          style={{
+            margin: "0 auto 40px",
+          }}
+        >
+          <a href="https://gyao.yahoo.co.jp/specials/ikkimi">
+            <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+            イッキ見！
+          </a>
+          <h3>作品説明</h3>
+          <p>
+            複数エピソードのあるアニメ・ドラマを「イッキ」にまとめて「見」られるイッキ見作品をまとめた特集。
+            <br />
+            掲載期間：2022年6月〜現在
+            <br />
+            制作期間：1ヶ月
+            <br />
+            担当領域：バナーデザイン、UI/UXデザイン、コーディング
+            <br />
+            使用ツール・技術：Photoshop/Illustrator/HTML/CSS/JavaScript/jQuery
+          </p>
+          {/* <h4>課題</h4>
+          <p>
+            目標に対するAD
+            request、ST数のギャップフィルを埋めるために、ユーザー一人当たりの再生数を増やしたい。
+          </p>
+          <h4>仮説</h4>
+          <p>ルールが簡潔にまとまっていると分かりやすいのではないか。</p>
+          <h4>根拠</h4>
+          <p>
+            昨年のワイルドカード実施時、ルールを理解していないユーザーの声がSNSに上がっていた。
+          </p>
+          <h4>施策</h4>
+          <p>
+            メインビジュアルの目立つ位置にルール説明のボタンを設置。
+            <br />
+            モーダルでイラストを使用して複雑なルールをわかりやすく説明して一つの画面にまとめた。
+          </p>
+          <h4>結果</h4>
+          <p>
+            ワイルドカード期間中のCTR（76％）とST数の増加に繋がった。SNSでは企画が理解しづらいという投稿が減少した。
+            <br />
+            M-1グランプリ企画全体を通しては、訪問UBが昨年比134％、APPダウンロードが昨年比130%と目標に大きく貢献した。
+          </p> */}
+        </section>
         <figure
           style={{
             maxWidth: "800px",
@@ -36,22 +81,6 @@ export default function Ikkimi() {
             placeholder="blur"
           />
         </figure>
-        <div>
-          <a href="https://gyao.yahoo.co.jp/specials/ikkimi">
-            <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-            イッキ見！
-          </a>
-          <p>
-            複数エピソードのあるアニメ・ドラマを「イッキ」にまとめて「見」られるイッキ見作品をまとめた特集。
-            <br />
-            GYAO!トップからアクセスしやすい位置にあり多くの流入が見込めるため、サービスマネージャー、ディレクターとPDCAを回しながら改善をした。
-            <br />
-            概要がわかりにくいイッキ見の説明をするためにモーダルを追加、作品サムネイルを大きくする、ピックアップ作品にあらすじを入れるなど多くの施策をおこなった。
-            <br />
-            刷新前はCTR10%代が多かったが、現在でもCTR20%をキープするなど数値の改善が見られた。
-          </p>
-          <p>掲載期間：2022年6月〜現在</p>
-        </div>
       </PostBody>
     </Container>
   );

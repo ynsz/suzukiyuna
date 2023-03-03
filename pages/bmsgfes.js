@@ -12,6 +12,25 @@ export default function Bmsgfes() {
 
       <Hero title="BMSG FES'22" subtitle="WEB DESIGN, WEB DEVELOPMENT" />
       <PostBody>
+        <section
+          style={{
+            margin: "0 auto 40px",
+          }}
+        >
+          <h3>作品説明</h3>
+          <p>
+            SKY-HI主宰のレーベル「BMSG」がイベントを開催することに伴い、ライブの模様やコメント映像を配信。
+            <br />
+            掲載期間：2022年9月〜10月頃
+            <br />
+            制作期間：1ヶ月
+            <br />
+            担当領域：Webデザイン、UI/UXデザイン、コーディング
+            <br />
+            使用ツール・技術：Photoshop/Illustrator/HTML/CSS/JavaScript/jQuery
+          </p>
+        </section>
+        <h3>デザイン</h3>
         <figure
           style={{
             maxWidth: "800px",
@@ -27,16 +46,6 @@ export default function Bmsgfes() {
             placeholder="blur"
           />
         </figure>
-        <div>
-          <p>
-            SKY-HI主宰のレーベル「BMSG」がBMSG史上最大規模のイベントを開催することに伴い、GYAO!ではライブの模様やコメント映像を無料配信。
-            <br />
-            特集ページと、それに合わせたズバトクキャンペーンページの画像やバナーも作成した。
-            <br />
-            今時の男性アイドルらしいおしゃれなクールさを意識。
-          </p>
-          <p>掲載期間：2022年9月〜10月頃</p>
-        </div>
       </PostBody>
     </Container>
   );

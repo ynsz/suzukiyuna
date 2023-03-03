@@ -32,24 +32,6 @@ export default function Works({}) {
       category: "WEB DESIGN, UX DESIGN, WEB DEVELOPMENT",
     },
     {
-      src: "bmsgfes",
-      img: bmsgfes,
-      title: "BMSG FES'22",
-      category: "WEB DESIGN, WEB DEVELOPMENT",
-    },
-    {
-      src: "koimaji",
-      img: koimaji,
-      title: "恋なんて、本気でやってどうするの？",
-      category: "WEB DESIGN, WEB DEVELOPMENT",
-    },
-    {
-      src: "summerfes",
-      img: summerfes,
-      title: "真夏の動画まつり",
-      category: "WEB DESIGN, WEB DEVELOPMENT",
-    },
-    {
       src: "ikkimi",
       img: ikkimi,
       title: "イッキ見！",
@@ -78,6 +60,24 @@ export default function Works({}) {
       img: r15,
       title: "官能・過激作品",
       category: "UI DESIGN, WEB DESIGN, WEB DEVELOPMENT",
+    },
+    {
+      src: "bmsgfes",
+      img: bmsgfes,
+      title: "BMSG FES'22",
+      category: "WEB DESIGN, WEB DEVELOPMENT",
+    },
+    {
+      src: "koimaji",
+      img: koimaji,
+      title: "恋なんて、本気でやってどうするの？",
+      category: "WEB DESIGN, WEB DEVELOPMENT",
+    },
+    {
+      src: "summerfes",
+      img: summerfes,
+      title: "真夏の動画まつり",
+      category: "WEB DESIGN, WEB DEVELOPMENT",
     },
     {
       src: "ikioi",
