@@ -42,6 +42,7 @@ export default function Goodbye() {
             <p>
               GYAO!ユーザーに今までの感謝の気持ちを伝える特別な特集。
               <br />
+              <br />
               掲載期間：2023年2月27日〜3月31日
               <br />
               制作期間：1ヶ月

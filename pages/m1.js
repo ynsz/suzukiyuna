@@ -11,6 +11,8 @@ import Img4 from "images/m1_4.jpg";
 import wc1 from "images/wc_1.jpg";
 import wc2 from "images/wc_2.png";
 import result from "images/m1_result.png";
+import award1 from "images/awarding1.jpg";
+import award2 from "images/awarding2.jpg";
 
 export default function M1() {
   return (
@@ -34,7 +36,8 @@ export default function M1() {
           <p>
             ワイルドカード、ファイナリスト発表記者会見、世界最速大反省会、M-1アフター座談会などGYAO!とM1-グランプリによるオリジナル企画の特集をデザインした。
             <br />
-            掲載期間：2021年10月29日〜2022年2月頃
+            <br />
+            掲載期間：2021年10月29日〜2022年2月頃（掲載終了）
             <br />
             制作期間：7ヶ月
             <br />
@@ -113,9 +116,11 @@ export default function M1() {
           </ul>
           <h4>結果</h4>
           <p>
-            ワイルドカード期間中のCTR（76％）とストリーミング数（動画再生回数）の増加に繋がった。SNSでは企画が理解しづらいという投稿が減少した。
+            ワイルドカード期間中のCTR（76％）とストリーミング数（動画再生回数）の増加に繋がった。
             <br />
-            M-1グランプリ企画全体を通しては、訪問UBが昨年比134％、APPダウンロードが昨年比130%と目標に大きく貢献した。
+            SNSでは企画が理解しづらいという投稿が減少。
+            <br />
+            M-1グランプリ企画全体を通しては、訪問UBが昨年比134％、APPダウンロードが昨年比130%と目標に大きく貢献。
           </p>
           <figure
             style={{
@@ -215,6 +220,45 @@ export default function M1() {
             </figure>
           </li>
         </ul>
+        <div>
+          <p>
+            UX体験の向上やリスク対策への取り組みが評価され、2021年のGYAO!下期表彰式で部門賞を受賞した。
+          </p>
+          <ul>
+            <li>
+              <figure
+                style={{
+                  maxWidth: "1000px",
+                  margin: "0 auto",
+                }}
+              >
+                <Image
+                  src={award1}
+                  alt="award1"
+                  layout="responsive"
+                  sizes="100vw"
+                  placeholder="blur"
+                />
+              </figure>
+            </li>
+            <li>
+              <figure
+                style={{
+                  maxWidth: "1000px",
+                  margin: "0 auto",
+                }}
+              >
+                <Image
+                  src={award2}
+                  alt="award2"
+                  layout="responsive"
+                  sizes="100vw"
+                  placeholder="blur"
+                />
+              </figure>
+            </li>
+          </ul>
+        </div>
       </PostBody>
     </Container>
   );

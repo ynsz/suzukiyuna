@@ -27,33 +27,26 @@ export default function Ikioi() {
           }}
         >
           <div>
-            <a href="https://gyao.yahoo.co.jp/specials/drama-catchup">
+            <a href="https://ikioi-intaisumo.com/">
               <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-              季節ドラマ
+              勢引退春日山襲名披露大相撲
             </a>
           </div>
           <h3>作品説明</h3>
           <p>
-            もっとドラマが見たくなるような情報を掲載した季節ドラマの特集。
+            勢引退春日山襲名披露大相撲を告知・チケット購入するページ。
             <br />
-            掲載期間：2022年3月〜現在
+            デザインからNext.jsでの開発、microCMSでの繋ぎ込みまで一貫して制作。
+            <br />
+            <br />
+            掲載期間：2023年1月〜現在
             <br />
             制作期間：1ヶ月
             <br />
-            担当領域：ビジュアルデザイン、UI/UXデザイン、コーディング
+            担当領域：Webデザイン、UI/UXデザイン、コーディング、フロントエンド、CMS構築
             <br />
-            使用ツール・技術：XD/Photoshop/Illustrator/HTML/CSS/JavaScript/jQuery
+            使用ツール・技術：XD/Photoshop/Illustrator/CSS/JavaScript/React/Next.js/microCMS/Netlify
           </p>
-          <h4>課題</h4>
-          <p></p>
-          <h4>仮説</h4>
-          <p></p>
-          <h4>根拠</h4>
-          <p></p>
-          <h4>施策</h4>
-          <p></p>
-          <h4>結果</h4>
-          <p></p>
         </section>
         <h3>デザイン</h3>
         <figure
@@ -71,16 +64,6 @@ export default function Ikioi() {
             placeholder="blur"
           />
         </figure>
-        <div>
-          <a href="https://ikioi-intaisumo.com/">
-            <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-            勢引退春日山襲名披露大相撲
-          </a>
-          <p>
-            デザインからNext.jsでの開発、microCMSでの繋ぎ込みまで一貫して制作。
-          </p>
-          <p>掲載期間：2023年1月〜現在</p>
-        </div>
       </PostBody>
     </Container>
   );

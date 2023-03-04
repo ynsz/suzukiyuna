@@ -25,26 +25,19 @@ export default function Ikioi() {
         >
           <h3>作品説明</h3>
           <p>
-            もっとドラマが見たくなるような情報を掲載した季節ドラマの特集。
+            愛知県にあるペット霊園のサイト。
             <br />
-            掲載期間：2022年3月〜現在
+            デザインからGatsbyJSでの開発、イラスト制作を行なった。
+            <br />
+            <br />
+            掲載期間：これから
             <br />
             制作期間：1ヶ月
             <br />
-            担当領域：ビジュアルデザイン、UI/UXデザイン、コーディング
+            担当領域：イラストレーション、Webデザイン、UI/UXデザイン、コーディング、フロントエンド
             <br />
-            使用ツール・技術：XD/Photoshop/Illustrator/HTML/CSS/JavaScript/jQuery
+            使用ツール・技術：XD/Photoshop/Illustrator/CSS/JavaScript/React/GatsbyJS/Netlify
           </p>
-          <h4>課題</h4>
-          <p></p>
-          <h4>仮説</h4>
-          <p></p>
-          <h4>根拠</h4>
-          <p></p>
-          <h4>施策</h4>
-          <p></p>
-          <h4>結果</h4>
-          <p></p>
         </section>
         <h3>デザイン</h3>
         <figure
@@ -62,10 +55,6 @@ export default function Ikioi() {
             placeholder="blur"
           />
         </figure>
-        <div>
-          <p>デザインからGatsbyJSでの開発、イラスト制作を行なった。</p>
-          <p>掲載期間：これから</p>
-        </div>
       </PostBody>
     </Container>
   );
