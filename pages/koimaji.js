@@ -10,13 +10,32 @@ export default function Koimaji() {
     <Container>
       <Meta
         pageTitle="恋なんて、本気でやってどうするの？"
-        pageDesc="WEB DESIGN, WEB DEVELOPMENT"
+        pageDesc="WEB DESIGN, UI/UX DESIGN, WEB DEVELOPMENT"
       />
       <Hero
         title="恋なんて、本気でやってどうするの？"
-        subtitle="WEB DESIGN, WEB DEVELOPMENT"
+        subtitle="WEB DESIGN, UI/UX DESIGN, WEB DEVELOPMENT"
       />
       <PostBody>
+        <section
+          style={{
+            margin: "0 auto 40px",
+          }}
+        >
+          <h3>作品説明</h3>
+          <p>
+            GYAO!独占チェインストーリーと最新話を配信するため、告知ページを制作。
+            <br />
+            掲載期間：2022年4月〜7月頃
+            <br />
+            制作期間：1ヶ月
+            <br />
+            担当領域：Webデザイン、UI/UXデザイン、コーディング
+            <br />
+            使用ツール・技術：Photoshop/Illustrator/HTML/CSS/JavaScript/jQuery
+          </p>
+        </section>
+        <h3>デザイン</h3>
         <figure
           style={{
             maxWidth: "800px",
@@ -32,14 +51,6 @@ export default function Koimaji() {
             placeholder="blur"
           />
         </figure>
-        <div>
-          <p>
-            GYAO!独占チェインストーリーと最新話を配信するため、告知ページを制作。
-            <br />
-            大人の女性向けのドラマなので、上品な可愛らしさを演出した。
-          </p>
-          <p>掲載期間：2022年4月〜7月頃</p>
-        </div>
       </PostBody>
     </Container>
   );

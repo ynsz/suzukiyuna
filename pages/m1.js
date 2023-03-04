@@ -17,12 +17,12 @@ export default function M1() {
     <Container>
       <Meta
         pageTitle="M-1グランプリ2021"
-        pageDesc="WEB DESIGN, UX DESIGN, WEB DEVELOPMENT"
+        pageDesc="WEB DESIGN, UI/UX DESIGN, WEB DEVELOPMENT"
       />
 
       <Hero
         title="M-1グランプリ2021"
-        subtitle="WEB DESIGN, UX DESIGN, WEB DEVELOPMENT"
+        subtitle="WEB DESIGN, UI/UX DESIGN, WEB DEVELOPMENT"
       />
       <PostBody>
         <section
@@ -113,7 +113,7 @@ export default function M1() {
           </ul>
           <h4>結果</h4>
           <p>
-            ワイルドカード期間中のCTR（76％）とST数の増加に繋がった。SNSでは企画が理解しづらいという投稿が減少した。
+            ワイルドカード期間中のCTR（76％）とストリーミング数（動画再生回数）の増加に繋がった。SNSでは企画が理解しづらいという投稿が減少した。
             <br />
             M-1グランプリ企画全体を通しては、訪問UBが昨年比134％、APPダウンロードが昨年比130%と目標に大きく貢献した。
           </p>

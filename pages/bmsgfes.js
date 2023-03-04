@@ -8,9 +8,15 @@ import ImgFull from "images/bmsgfes_full.jpg";
 export default function Bmsgfes() {
   return (
     <Container>
-      <Meta pageTitle="BMSG FES'22" pageDesc="WEB DESIGN, WEB DEVELOPMENT" />
+      <Meta
+        pageTitle="BMSG FES'22"
+        pageDesc="WEB DESIGN, UI/UX DESIGN, WEB DEVELOPMENT"
+      />
 
-      <Hero title="BMSG FES'22" subtitle="WEB DESIGN, WEB DEVELOPMENT" />
+      <Hero
+        title="BMSG FES'22"
+        subtitle="WEB DESIGN, UI/UX DESIGN, WEB DEVELOPMENT"
+      />
       <PostBody>
         <section
           style={{
