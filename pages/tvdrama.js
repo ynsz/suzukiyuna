@@ -13,14 +13,43 @@ export default function Tvdrama() {
     <Container>
       <Meta
         pageTitle="Yahoo!テレビ ドラマ特集"
-        pageDesc="UI DESIGN, WEB DEVELOPMENT, CMS"
+        pageDesc="UI/UX DESIGN, WEB DEVELOPMENT, CMS"
       />
 
       <Hero
         title="Yahoo!テレビ ドラマ特集"
-        subtitle="UI DESIGN, WEB DEVELOPMENT, CMS"
+        subtitle="UI/UX DESIGN, WEB DEVELOPMENT, CMS"
       />
       <PostBody>
+        <section
+          style={{
+            margin: "0 auto 40px",
+          }}
+        >
+          <div>
+            <a href="https://tv.yahoo.co.jp/tv_show/drama/">
+              <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+              Yahoo!テレビ ドラマ特集
+            </a>
+          </div>
+          <h3>作品説明</h3>
+          <p>
+            ドラマ情報がまとめられた特集ページ。
+            <br />
+            UIデザインからコーディング、MovableTypeを使用したCMS構築を行い、誰でも入稿可能な特集を制作。
+            <br />
+            <br />
+            掲載期間：2020年〜現在
+            <br />
+            制作期間：2ヶ月
+            <br />
+            担当領域：UI/UXデザイン、コーディング
+            <br />
+            使用ツール・技術：XD/HTML/CSS/JavaScript/jQuery/MovableType
+          </p>
+        </section>
+        <h3>デザイン</h3>
+        <h3>デザイン</h3>
         <figure
           style={{
             maxWidth: "800px",
@@ -36,18 +65,6 @@ export default function Tvdrama() {
             placeholder="blur"
           />
         </figure>
-        <div>
-          <a href="https://tv.yahoo.co.jp/tv_show/drama/">
-            <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-            Yahoo!テレビ ドラマ特集
-          </a>
-          <p>
-            ドラマ情報がまとめられた特集ページ。
-            <br /> UIデザインからコーディング、Movable
-            Typeを使用したCMS構築を行い、誰でも入稿可能な特集を制作。
-          </p>
-          <p>掲載期間：2020年頃〜現在</p>
-        </div>
       </PostBody>
     </Container>
   );

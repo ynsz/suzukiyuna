@@ -10,11 +10,34 @@ export default function Summerfes() {
     <Container>
       <Meta
         pageTitle="真夏の動画まつり"
-        pageDesc="WEB DESIGN, WEB DEVELOPMENT"
+        pageDesc="WEB DESIGN, UI/UX DESIGN, WEB DEVELOPMENT"
       />
 
-      <Hero title="真夏の動画まつり" subtitle="WEB DESIGN, WEB DEVELOPMENT" />
+      <Hero
+        title="真夏の動画まつり"
+        subtitle="WEB DESIGN, UI/UX DESIGN, WEB DEVELOPMENT"
+      />
       <PostBody>
+        <section
+          style={{
+            margin: "0 auto 40px",
+          }}
+        >
+          <h3>作品説明</h3>
+          <p>
+            夏休みにもっとGYAO!の動画を楽しんでもらうための特集。
+            <br />
+            <br />
+            掲載期間：2022年7月〜8月頃（掲載終了）
+            <br />
+            制作期間：1ヶ月
+            <br />
+            担当領域：Webデザイン、UI/UXデザイン、コーディング
+            <br />
+            使用ツール・技術：Photoshop/Illustrator/HTML/CSS/JavaScript/jQuery
+          </p>
+        </section>
+        <h3>デザイン</h3>
         <figure
           style={{
             maxWidth: "800px",
@@ -30,18 +53,6 @@ export default function Summerfes() {
             placeholder="blur"
           />
         </figure>
-        <div>
-          <p>
-            夏休みにもっとGYAO!の動画を楽しんでもらうための特集。
-            <br />
-            見たい動画が決まらない人へのルーレットやPayPayポイントが当たるキャンペーンなどで盛り上げている。
-            <br />
-            ズバトクキャンペーンページの画像とバナーも制作。
-            <br />
-            デザインは、青い空から海にダイブして海に潜って深海まで行き、砂浜に打ち上がるまで一連になっていて、楽しい動画をどんどん追求していくことをイメージしている。
-          </p>
-          <p>掲載期間：2022年7月〜8月頃</p>
-        </div>
       </PostBody>
     </Container>
   );

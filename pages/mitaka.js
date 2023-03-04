@@ -11,10 +11,44 @@ import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 export default function Mitaka() {
   return (
     <Container>
-      <Meta pageTitle="不動産売却" pageDesc="WEB DESIGN" />
+      <Meta
+        pageTitle="不動産売却"
+        pageDesc="WEB DESIGN, sUI/UX DESIGN, WEB DEVELOPMENT"
+      />
 
-      <Hero title="不動産売却" subtitle="WEB DESIGN" />
+      <Hero
+        title="不動産売却"
+        subtitle="WEB DESIGN, UI/UX DESIGN, WEB DEVELOPMENT"
+      />
       <PostBody>
+        <section
+          style={{
+            margin: "0 auto 40px",
+          }}
+        >
+          <div>
+            <a href="https://gifunavi.jp/sell/">
+              <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+              不動産売却
+            </a>
+          </div>
+          <h3>作品説明</h3>
+          <p>
+            岐阜県にある不動産会社の売買LP。
+            <br />
+            不動産売却という複雑な仕組みをイラストや図を用いてわかりやすく説明。
+            <br />
+            <br />
+            掲載期間：2020年頃〜現在
+            <br />
+            制作期間：1ヶ月
+            <br />
+            担当領域：Webデザイン、UI/UXデザイン、コーディング
+            <br />
+            使用ツール・技術：XD/Photoshop/Illustrator/HTML/CSS/JavaScript/iQuery
+          </p>
+        </section>
+        <h3>デザイン</h3>
         <figure
           style={{
             maxWidth: "800px",
@@ -30,16 +64,6 @@ export default function Mitaka() {
             placeholder="blur"
           />
         </figure>
-        <div>
-          <a href="https://gifunavi.jp/sell/">
-            <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-            不動産売却
-          </a>
-          <p>
-            不動産売却という複雑な仕組みをイラストや図を用いてわかりやすく説明。
-          </p>
-          <p>掲載期間：2020年頃〜現在</p>
-        </div>
       </PostBody>
     </Container>
   );

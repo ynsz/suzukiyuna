@@ -10,14 +10,36 @@ export default function Ikioi() {
     <Container>
       <Meta
         pageTitle="慈妙院動物霊園"
-        pageDesc="WEB DESIGN, WEB DEVELOPMENT, ILLUSTRATION"
+        pageDesc="WEB DESIGN, UI/UX DESIGN, WEB DEVELOPMENT, ILLUSTRATION"
       />
 
       <Hero
         title="慈妙院動物霊園"
-        subtitle="WEB DESIGN, WEB DEVELOPMENT, ILLUSTRATION"
+        subtitle="WEB DESIGN, UI/UX DESIGN, WEB DEVELOPMENT, ILLUSTRATION"
       />
       <PostBody>
+        <section
+          style={{
+            margin: "0 auto 40px",
+          }}
+        >
+          <h3>作品説明</h3>
+          <p>
+            愛知県にあるペット霊園のサイト。
+            <br />
+            デザインからGatsbyJSでの開発、イラスト制作を行なった。
+            <br />
+            <br />
+            掲載期間：これから
+            <br />
+            制作期間：1ヶ月
+            <br />
+            担当領域：イラストレーション、Webデザイン、UI/UXデザイン、コーディング、フロントエンド
+            <br />
+            使用ツール・技術：XD/Photoshop/Illustrator/CSS/JavaScript/React/GatsbyJS/Netlify
+          </p>
+        </section>
+        <h3>デザイン</h3>
         <figure
           style={{
             maxWidth: "800px",
@@ -33,10 +55,6 @@ export default function Ikioi() {
             placeholder="blur"
           />
         </figure>
-        <div>
-          <p>デザインからGatsbyJSでの開発、イラスト制作を行なった。</p>
-          <p>掲載期間：これから</p>
-        </div>
       </PostBody>
     </Container>
   );

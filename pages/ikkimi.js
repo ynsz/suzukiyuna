@@ -14,12 +14,12 @@ export default function Ikkimi() {
     <Container>
       <Meta
         pageTitle="イッキ見！"
-        pageDesc="UI DESIGN, WEB DESIGN, WEB DEVELOPMENT"
+        pageDesc="UI/UX DESIGN, WEB DESIGN, WEB DEVELOPMENT"
       />
 
       <Hero
         title="イッキ見！"
-        subtitle="UI DESIGN, WEB DESIGN, WEB DEVELOPMENT"
+        subtitle="UI/UX DESIGN, WEB DESIGN, WEB DEVELOPMENT"
       />
       <PostBody>
         <section
@@ -27,15 +27,18 @@ export default function Ikkimi() {
             margin: "0 auto 40px",
           }}
         >
-          <a href="https://gyao.yahoo.co.jp/specials/ikkimi">
-            <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-            イッキ見！
-          </a>
+          <div>
+            <a href="https://gyao.yahoo.co.jp/specials/ikkimi">
+              <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+              イッキ見！
+            </a>
+          </div>
           <h3>作品説明</h3>
           <p>
             複数エピソードのあるアニメ・ドラマを「イッキ」にまとめて「見」られるイッキ見作品をまとめた特集。
             <br />
             GYAOトップから定常的な流入が見込めるページのため、リリース後もPDCAを回して継続した施策の検討と改修、数値分析を行った。
+            <br />
             <br />
             掲載期間：2022年6月〜現在
             <br />
@@ -48,7 +51,7 @@ export default function Ikkimi() {
           <h4>課題</h4>
           <p>
             目標に対するAD
-            request、ST数のギャップフィルを埋めるために、ユーザー一人当たりの再生数を増やしたい。
+            request、ストリーミング数（動画再生回数）のギャップフィルを埋めるために、ユーザー一人当たりの再生数を増やしたい。
             <figure
               style={{
                 maxWidth: "200px",
@@ -100,11 +103,12 @@ export default function Ikkimi() {
           <h4>結果</h4>
           <p>
             各施策により作品CTRが2%、訪問UBが10,000程度アップし、AD
-            request、ST数増加に貢献した。
+            request、ストリーミング数（動画再生回数）増加に貢献した。
             <br />
             現在もCTR20%〜をキープしている。
           </p>
         </section>
+        <h3>デザイン</h3>
         <figure
           style={{
             maxWidth: "800px",

@@ -20,12 +20,12 @@ export default function Goodbye() {
     <Container>
       <Meta
         pageTitle="あなたとエンタメにありがとう"
-        pageDesc="WEB DESIGN, WEB DEVELOPMENT"
+        pageDesc="WEB DESIGN, UI/UX DESIGN, WEB DEVELOPMENT"
       />
 
       <Hero
         title="あなたとエンタメにありがとう"
-        subtitle="WEB DESIGN, WEB DEVELOPMENT"
+        subtitle="WEB DESIGN, UI/UX DESIGN, WEB DEVELOPMENT"
       />
       <PostBody>
         <div>
@@ -41,6 +41,7 @@ export default function Goodbye() {
             <h3>作品説明</h3>
             <p>
               GYAO!ユーザーに今までの感謝の気持ちを伝える特別な特集。
+              <br />
               <br />
               掲載期間：2023年2月27日〜3月31日
               <br />
