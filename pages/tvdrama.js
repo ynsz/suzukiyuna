@@ -49,7 +49,6 @@ export default function Tvdrama() {
           </p>
         </section>
         <h3>デザイン</h3>
-        <h3>デザイン</h3>
         <figure
           style={{
             maxWidth: "800px",
