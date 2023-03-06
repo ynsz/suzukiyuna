@@ -9,10 +9,10 @@ import ikkimi from "images/ikkimi.jpg";
 import drama from "images/drama.jpg";
 import anime from "images/anime.jpg";
 import korean from "images/korean.jpg";
-import r15 from "images/r15.jpg";
 import ikioi from "images/ikioi.jpg";
 import jimyoin from "images/jimyoin.jpg";
 import mitaka from "images/mitaka.jpg";
+import cbd from "images/cbd.jpg";
 import fammuu from "images/fammuu.jpg";
 import tv from "images/tv.jpg";
 import tvdrama from "images/tvdrama.jpg";
@@ -90,6 +90,12 @@ export default function Works({}) {
       img: mitaka,
       title: "不動産売却",
       category: "WEB DESIGN, UI/UX DESIGN, WEB DEVELOPMENT",
+    },
+    {
+      src: "cbd",
+      img: cbd,
+      title: "AndTheory",
+      category: "ROGO DESIGN, LABEL DESIGN",
     },
     {
       src: "fammuu",
