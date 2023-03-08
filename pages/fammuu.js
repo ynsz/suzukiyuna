@@ -33,15 +33,25 @@ export default function Fammuu() {
           </p>
         </section>
         <h3>デザイン</h3>
-        <video
-          controls
+        <div
           style={{
-            maxWidth: "100%",
+            maxWidth: "500px",
             margin: "0 auto",
           }}
         >
-          <source src={mp4} type="video/mp4" />
-        </video>
+          <video
+            autoPlay
+            muted
+            loop
+            controls
+            style={{
+              maxWidth: "100%",
+              margin: "0 auto",
+            }}
+          >
+            <source src={mp4} type="video/mp4" />
+          </video>
+        </div>
         <figure
           style={{
             maxWidth: "800px",
