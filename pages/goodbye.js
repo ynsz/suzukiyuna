@@ -29,10 +29,6 @@ export default function Goodbye() {
       />
       <PostBody>
         <div>
-          <a href="https://gyao.yahoo.co.jp/specials/goodbye">
-            <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-            あなたとエンタメにありがとう
-          </a>
           <section
             style={{
               margin: "0 auto 40px",
