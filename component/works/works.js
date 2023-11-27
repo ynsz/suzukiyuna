@@ -1,5 +1,10 @@
 import css from "./works.module.scss";
 import Image from "next/image";
+import iiba from "images/iiba.jpg";
+import nine from "images/nine.jpg";
+import slide from "images/slide.jpg";
+import eightgame from "images/eightgame.jpg";
+import eight from "images/eight.jpg";
 import goodbye from "images/goodbye.jpg";
 import m1 from "images/m1.jpg";
 import bmsgfes from "images/bmsgfes.jpg";
@@ -13,12 +18,43 @@ import ikioi from "images/ikioi.jpg";
 import jimyoin from "images/jimyoin.jpg";
 import mitaka from "images/mitaka.jpg";
 import cbd from "images/cbd.jpg";
+import morzh from "images/morzh.jpg";
 import fammuu from "images/fammuu.jpg";
 import tv from "images/tv.jpg";
 import tvdrama from "images/tvdrama.jpg";
 
 export default function Works({}) {
   const items = [
+    {
+      src: "iiba",
+      img: iiba,
+      title: "iiba",
+      category: "UI/UX DESIGN,GRAPHIC DESIGN",
+    },
+    {
+      src: "nine",
+      img: nine,
+      title: "プリコネフェス2024",
+      category: "WEB DESIGN, UI/UX DESIGN",
+    },
+    {
+      src: "slide",
+      img: slide,
+      title: "Shadowverse EVOLVE カルテットバトル説明スライド",
+      category: "SLIDE DESIGN",
+    },
+    {
+      src: "eightgame",
+      img: eightgame,
+      title: "ファンサアシストライブ！",
+      category: "WEB DESIGN, UI/UX DESIGN",
+    },
+    {
+      src: "eight",
+      img: eight,
+      title: "デレステ8周年特設サイト",
+      category: "WEB DESIGN, UI/UX DESIGN",
+    },
     {
       src: "goodbye",
       img: goodbye,
@@ -96,6 +132,12 @@ export default function Works({}) {
       img: cbd,
       title: "AndTheory",
       category: "ROGO DESIGN, LABEL DESIGN",
+    },
+    {
+      src: "morzh",
+      img: morzh,
+      title: "テントサウナMORZH 営業資料",
+      category: "SLIDE DESIGN",
     },
     {
       src: "fammuu",
