@@ -4,12 +4,11 @@ import Hero from "component/hero/hero";
 import PostBody from "component/postBody/postBody";
 import Image from "next/image";
 import ImgFull from "images/iiba_splash.png";
-import ImgFull2 from "images/iiba_top.png";
-import ImgFull3 from "images/iiba_mainspot.png";
-import ImgFull4 from "images/iiba_detail.png";
-import ImgFull5 from "images/iiba_my.png";
-import ImgFull6 from "images/iiba_spot.png";
-import ImgFull7 from "images/iiba_spot_done.png";
+import ImgFull2 from "images/Preview.png";
+import ImgFull3 from "images/Preview-1.png";
+import ImgFull4 from "images/Preview-2.png";
+import ImgFull5 from "images/Preview-3.png";
+import ImgFull6 from "images/Preview-4.png";
 import ImgFull8 from "images/iiba_meishi_omote.png";
 import ImgFull9 from "images/iiba_meishi_ura.png";
 
@@ -148,14 +147,6 @@ export default function iiba() {
             margin: "0 auto 50px",
           }}
         >
-          <Image
-            src={ImgFull7}
-            alt="bgImg"
-            layout="responsive"
-            sizes="100vw"
-            priority
-            placeholder="blur"
-          />
         </figure>
                 <h4>名刺</h4>
         <figure

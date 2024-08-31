@@ -1,6 +1,7 @@
 import css from "./works.module.scss";
 import Image from "next/image";
 import iiba from "images/iiba.jpg";
+import uoyanagi from "images/uoyanagi.jpg";
 import nine from "images/nine.jpg";
 import slide from "images/slide.jpg";
 import eightgame from "images/eightgame.jpg";
@@ -30,6 +31,12 @@ export default function Works({}) {
       img: iiba,
       title: "iiba",
       category: "UI/UX DESIGN,GRAPHIC DESIGN",
+    },
+    {
+      src: "uoyanagi",
+      img: uoyanagi,
+      title: "魚柳",
+      category: "WEB DESIGN, UI/UX DESIGN",
     },
     {
       src: "nine",
