@@ -7,7 +7,7 @@ export default function Social({ iconSize = "initial" }) {
   return (
     <ul className={css.list} style={{ "--icon-size": iconSize }}>
       <li>
-        <a href="https://www.facebook.com/yuna.suzuki.528/">
+        <a href="https://www.facebook.com/profile.php?id=61565455329885">
           <FontAwesomeIcon icon={faFacebookF} />
           <span className="sr-only">Facebook</span>
         </a>
