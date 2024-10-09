@@ -1,6 +1,7 @@
 import css from "./works.module.scss";
 import Image from "next/image";
 import iiba from "images/iiba.jpg";
+import kyoto from "images/kyoto.png";
 import uoyanagi from "images/uoyanagi.jpg";
 import nine from "images/nine.jpg";
 import slide from "images/slide.jpg";
@@ -31,6 +32,12 @@ export default function Works({}) {
       img: iiba,
       title: "iiba",
       category: "UI/UX DESIGN,GRAPHIC DESIGN",
+    },
+    {
+      src: "kyoto",
+      img: kyoto,
+      title: "子育てマップまち歩きイベント",
+      category: "GRAPHIC DESIGN",
     },
     {
       src: "uoyanagi",

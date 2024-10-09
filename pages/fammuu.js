@@ -6,6 +6,9 @@ import Image from "next/image";
 import ImgFull from "images/fammuu_full.jpg";
 import mp4 from "images/fammuu_animation.mp4";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+
 export default function Fammuu() {
   return (
     <Container>
@@ -18,12 +21,18 @@ export default function Fammuu() {
             margin: "0 auto 40px",
           }}
         >
+          <div>
+            <a href="https://fammuu.com/">
+              <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+              fammuu
+            </a>
+          </div>
           <h3>作品説明</h3>
           <p>
             アーティスト向けファンクラブ作成サービスのリリースに伴い、LPを作成。
             <br />
             <br />
-            掲載期間：これから
+            掲載期間：2021年〜
             <br />
             制作期間：1ヶ月
             <br />
