@@ -22,12 +22,6 @@ export default function Tv() {
             margin: "0 auto 40px",
           }}
         >
-          <div>
-            <a href="https://tv.yahoo.co.jp/listings">
-              <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-              Yahoo!テレビ
-            </a>
-          </div>
           <h3>作品説明</h3>
           <p>
             番組表や番組情報を提供するヤフーサービスのコーディング領域を担当。

@@ -11,6 +11,7 @@ import ImgFull5 from "images/Preview-3.png";
 import ImgFull6 from "images/Preview-4.png";
 import ImgFull8 from "images/iiba_meishi_omote.png";
 import ImgFull9 from "images/iiba_meishi_ura.png";
+import ImgFull10 from "images/iiba_chirashi.jpg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
@@ -148,7 +149,7 @@ export default function iiba() {
           }}
         >
         </figure>
-                <h4>名刺</h4>
+  <h4>名刺</h4>
         <figure
           style={{
             maxWidth: "375px",
@@ -172,6 +173,22 @@ export default function iiba() {
         >
           <Image
             src={ImgFull9}
+            alt="bgImg"
+            layout="responsive"
+            sizes="100vw"
+            priority
+            placeholder="blur"
+          />
+        </figure>
+        <h4>チラシ</h4>
+        <figure
+          style={{
+            maxWidth: "800px",
+            margin: "0 auto 50px",
+          }}
+        >
+          <Image
+            src={ImgFull10}
             alt="bgImg"
             layout="responsive"
             sizes="100vw"
