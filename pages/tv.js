@@ -76,7 +76,7 @@ export default function Tv() {
           </p>
           <h4>結果</h4>
           <p>
-            ページの集約・削除を行い、プロダクトのモダン化、開発プロセス改善、システム仕様の可視化により、開発/運用コストを50%削減できた。
+            ページの集約・削除を行い、プロダクトのモダン化、開発プロセス改善、システム仕様の可視化により、開発/運用コストを50%削減できた。</p>
             <figure
               style={{
                 maxWidth: "600px",
@@ -92,7 +92,6 @@ export default function Tv() {
                 placeholder="blur"
               />
             </figure>
-          </p>
         </section>
         <h3>デザイン</h3>
         <figure

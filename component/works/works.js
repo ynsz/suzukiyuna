@@ -40,22 +40,10 @@ export default function Works({}) {
       category: "GRAPHIC DESIGN",
     },
     {
-      src: "uoyanagi",
-      img: uoyanagi,
-      title: "魚柳",
-      category: "WEB DESIGN, UI/UX DESIGN",
-    },
-    {
       src: "nine",
       img: nine,
       title: "プリコネフェス2024",
       category: "WEB DESIGN, UI/UX DESIGN",
-    },
-    {
-      src: "slide",
-      img: slide,
-      title: "Shadowverse EVOLVE カルテットバトル説明スライド",
-      category: "SLIDE DESIGN",
     },
     {
       src: "eightgame",
@@ -63,16 +51,16 @@ export default function Works({}) {
       title: "ファンサアシストライブ！",
       category: "WEB DESIGN, UI/UX DESIGN",
     },
-    {
-      src: "eight",
-      img: eight,
-      title: "デレステ8周年特設サイト",
-      category: "WEB DESIGN, UI/UX DESIGN",
+        {
+      src: "tv",
+      img: tv,
+      title: "Yahoo!テレビ",
+      category: "UI/UX DESIGN, WEB DEVELOPMENT",
     },
     {
       src: "goodbye",
       img: goodbye,
-      title: "あなたとエンタメにありがとう",
+      title: "GYAO!クローズ特集",
       category: "WEB DESIGN, UI/UX DESIGN, WEB DEVELOPMENT",
     },
     {
@@ -82,46 +70,10 @@ export default function Works({}) {
       category: "WEB DESIGN, UI/UX DESIGN, WEB DEVELOPMENT",
     },
     {
-      src: "ikkimi",
-      img: ikkimi,
-      title: "イッキ見！",
-      category: "UI/UX DESIGN, WEB DESIGN, WEB DEVELOPMENT",
-    },
-    {
-      src: "drama",
-      img: drama,
-      title: "季節ドラマ",
-      category: "UI/UX DESIGN, WEB DESIGN, WEB DEVELOPMENT",
-    },
-    {
-      src: "anime",
-      img: anime,
-      title: "季節アニメ",
-      category: "UI/UX DESIGN, WEB DESIGN, WEB DEVELOPMENT",
-    },
-    {
-      src: "korean",
-      img: korean,
-      title: "もっと韓ドラ＆アジアドラマ",
-      category: "UI/UX DESIGN, WEB DESIGN, WEB DEVELOPMENT",
-    },
-    {
-      src: "bmsgfes",
-      img: bmsgfes,
-      title: "BMSG FES'22",
-      category: "WEB DESIGN, UI/UX DESIGN, WEB DEVELOPMENT",
-    },
-    {
-      src: "koimaji",
-      img: koimaji,
-      title: "恋なんて、本気でやってどうするの？",
-      category: "WEB DESIGN, UI/UX DESIGN, WEB DEVELOPMENT",
-    },
-    {
-      src: "summerfes",
-      img: summerfes,
-      title: "真夏の動画まつり",
-      category: "WEB DESIGN, UI/UX DESIGN, WEB DEVELOPMENT",
+      src: "uoyanagi",
+      img: uoyanagi,
+      title: "魚柳",
+      category: "WEB DESIGN, UI/UX DESIGN",
     },
     {
       src: "ikioi",
@@ -130,46 +82,10 @@ export default function Works({}) {
       category: "WEB DESIGN, UI/UX DESIGN, WEB DEVELOPMENT, CMS",
     },
     {
-      src: "jimyoin",
-      img: jimyoin,
-      title: "慈妙院動物霊園",
-      category: "WEB DESIGN, UI/UX DESIGN, WEB DEVELOPMENT, ILLUSTRATION",
-    },
-    {
-      src: "mitaka",
-      img: mitaka,
-      title: "不動産売却",
-      category: "WEB DESIGN, UI/UX DESIGN, WEB DEVELOPMENT",
-    },
-    {
       src: "cbd",
       img: cbd,
       title: "AndTheory",
       category: "ROGO DESIGN, LABEL DESIGN",
-    },
-    {
-      src: "morzh",
-      img: morzh,
-      title: "テントサウナMORZH 営業資料",
-      category: "SLIDE DESIGN",
-    },
-    {
-      src: "fammuu",
-      img: fammuu,
-      title: "fammuu",
-      category: "WEB DESIGN, UI/UX DESIGN,",
-    },
-    {
-      src: "tv",
-      img: tv,
-      title: "Yahoo!テレビ",
-      category: "UI/UX DESIGN, WEB DEVELOPMENT",
-    },
-    {
-      src: "tvdrama",
-      img: tvdrama,
-      title: "Yahoo!テレビ ドラマ特集",
-      category: "UI/UX DESIGN, WEB DEVELOPMENT, CMS",
     },
   ];
   return (

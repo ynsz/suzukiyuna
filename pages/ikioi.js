@@ -26,12 +26,6 @@ export default function Ikioi() {
             margin: "0 auto 40px",
           }}
         >
-          <div>
-            <a href="https://ikioi-intaisumo.com/">
-              <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-              勢引退春日山襲名披露大相撲
-            </a>
-          </div>
           <h3>作品説明</h3>
           <p>
             勢引退春日山襲名披露大相撲を告知・チケット購入するページ。
@@ -39,7 +33,7 @@ export default function Ikioi() {
             デザインからNext.jsでの開発、microCMSでの繋ぎ込みまで一貫して制作。
             <br />
             <br />
-            掲載期間：2023年1月〜現在
+            掲載期間：2023年1月〜2023年6月
             <br />
             制作期間：1ヶ月
             <br />

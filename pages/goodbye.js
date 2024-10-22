@@ -19,12 +19,12 @@ export default function Goodbye() {
   return (
     <Container>
       <Meta
-        pageTitle="あなたとエンタメにありがとう"
+        pageTitle="GYAO!クローズ特集"
         pageDesc="WEB DESIGN, UI/UX DESIGN, WEB DEVELOPMENT"
       />
 
       <Hero
-        title="あなたとエンタメにありがとう"
+        title="GYAO!クローズ特集"
         subtitle="WEB DESIGN, UI/UX DESIGN, WEB DEVELOPMENT"
       />
       <PostBody>
