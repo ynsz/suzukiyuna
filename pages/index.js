@@ -10,7 +10,7 @@ export default function Home() {
 
       <Hero
         title="SUZUKI YUNA"
-        subtitle="DESIGN WORKS  2018-2024"
+        subtitle="WORKS  2018-2025"
         imageOn
         large
       />
